@@ -1,0 +1,188 @@
+/*Cabeceras */
+/* esp a=1; b=0; c=0; esp = 001*/
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size-adjust: 0.5;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+    background-color: #373737;
+    text-align: center;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h1 {
+    font-size: 4.5em;
+    border-style: hidden;
+    border-radius: 0.5em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h2,
+h3,
+h5,
+h6 {
+    border-style: outset;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h2 {
+    font-size: 3em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h3 {
+    font-size: 2em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h4 {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h5 {
+    font-size: 0.50em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h6 {
+    font-size: 0.25em;
+}
+
+/* Encabezado y pie */
+
+/* esp a=2; b=0; c=0; esp = 002*/
+header li,
+footer li {
+    display: inline-block;
+    padding: 0.5em 10em 0.5em 10em;
+    font-size: 1.5em;
+    font-family: "Gill sans", sans-serif;
+}
+
+/* esp a=2; b=0; c=0; esp = 002*/
+aside li {
+    display: flex;
+    padding: 1em 0em 1em 0em;
+}
+
+
+/* esp a=2; b=0; c=0; esp = 002*/
+header ul,
+footer ul {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Enlaces*/
+
+/* esp a=1; b=1; c=0; esp = 011*/
+a:link {
+    color: #373737;
+    background-color: transparent;
+    text-decoration: inherit;
+}
+
+/* esp a=2; b=1; c=0; esp = 012*/
+a:visited {
+    color: inherit;
+    background-color: transparent;
+}
+
+/* esp a=2; b=1; c=0; esp = 012*/
+footer a:visited {
+    color: black;
+    background-color: transparent;
+}
+
+
+
+/*listas*/
+/* esp a=3; b=0; c=0; esp = 003*/
+ul li {
+    display: block;
+    font-size: 1.1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+
+
+}
+
+input,
+select {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* esp a=4; b=0; c=0; esp = 004*/
+ul li::first-letter {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/*Principal*/
+/* esp a=1; b=0; c=0; esp = 001*/
+html {
+    background-image: url("multimedia/terminator1.jpg");
+    background-repeat: repeat;
+    background-color: #C8C9C3;
+    color: transparent;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+body,
+footer,
+header {
+    background-color: #C8C9C3;
+    color: black;
+}
+
+
+
+
+/*Tablas*/
+/* esp a=1; b=0; c=0; esp = 001*/
+table {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+/*Parrafos*/
+/* esp a=1; b=0; c=0; esp = 001*/
+p,
+a {
+    text-align: justify;
+    white-space: normal;
+    font-size: 1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+
+.button {
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+    line-height: 5;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
