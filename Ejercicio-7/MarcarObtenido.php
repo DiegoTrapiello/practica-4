@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     
     <meta name="author" content="Diego Trapiello Mendoza" /> 
-    
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <!-- enlace a la hoja de estilos -->
     <link href="Ejercicio7.css" rel="stylesheet" >
 </head>
@@ -18,9 +18,11 @@
         <h2>Marcar como obtenido un objeto</h2>  
         
         <p>Menú dropdown que permite seleccionar un objeto no obtenido como obtenido</p>
+
+        <p>Desde este menu desplegable puede seleccionar que se ha obtenido un objeto de la lista de objetos no obtenidos</p>
         
-        <form method="post" action="">
-                <select name="marcarobjeto">
+        <form method="post" action="" title="Formulario">
+                <select name="marcarobjeto" title="Marcar Objeto">
                 <option disabled selected> --Seleccionar Objeto -- </option>
                 <?php
                   include_once 'BaseDatos.php';

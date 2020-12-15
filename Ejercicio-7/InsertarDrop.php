@@ -4,6 +4,7 @@
 <title>Ejercicio 7</title>
     <meta charset="utf-8"/>
     <meta name="author" content="Diego Trapiello Mendoza" /> 
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <link href="Ejercicio7.css" rel="stylesheet"/>
 </head>
 
@@ -15,8 +16,8 @@
         
         <p>Formulario para añadir nuevos drops</p>
         
-        <form method="post" action="#" id="usrform">
-        <p>Enemigo: <select name="enemigo">
+        <form method="post" action="#" id="usrform" title="Formulario">
+        <p>Enemigo: <select name="enemigo" title="Enemigo">
                 <option disabled selected> -- Seleccionar Enemigo -- </option>
                 <?php
                   include_once 'BaseDatos.php';
@@ -25,14 +26,14 @@
                 ?>
                 </select>
                 </p>
-                <p>Objeto: <select name="objeto">
+                <p>Objeto: <select name="objeto" title="Objeto"> 
                 <option disabled selected> -- Seleccionar Objeto -- </option>
                 <?php
                   $basedatos->obtenerObjetos();
                 ?>
                 </select>
                 </p>
-                <p>Porcentaje: <input type="number" id="quantity" name="porcentaje" min="0" max="100" step="0.01"></p>
+                <p>Porcentaje: <input type="number" id="quantity" name="porcentaje" min="0" max="100" step="0.01" title="Porcentaje"></p>
                 <input type="submit" value="Insertar Datos" />
         </form>
         <?php

@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     
     <meta name="author" content="Diego Trapiello Mendoza" /> 
-    
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <link href="Ejercicio7.css" rel="stylesheet" />
 </head>
     
@@ -18,15 +18,15 @@
         <p>Botones para cargar ficheros .csv con datos para la base de datos </p>
         
 
-        <form method="post" action="" enctype='multipart/form-data'>
+        <form method="post" action="" enctype='multipart/form-data' title="Formulario">
                 <p>Cargar Fichero Enemigos</p>
-                <input type="file" value="Generar Fichero Enemigos" name = "fileEnemigos"/>
+                <input type="file"  name = "fileEnemigos" title="Fichero enemigos"/>
                 <input type='submit' value='Enviar' name="enemigos" />
                 <p>Cargar Fichero Objetos</p>
-                <input type="file" value="Generar Fichero Objetos" name = "fileObjetos"/>
+                <input type="file"  name = "fileObjetos" title="Fichero Objetos"/>
                 <input type='submit' value='Enviar' name="objetos"/>
                 <p>Cargar Fichero Drops</p>
-                <input type="file" value="Generar Fichero Drops" name = "fileDrops"/>
+                <input type="file"  name = "fileDrops" title="Fichero Drops"/>
                 <input type='submit' value='Enviar' name="drops" />
         </form>
 <?php

@@ -4,6 +4,7 @@
 <title>Ejercicio 7</title>
     <meta charset="utf-8"/>
     <meta name="author" content="Diego Trapiello Mendoza" /> 
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <link href="Ejercicio7.css" rel="stylesheet"/>
 </head>
 
@@ -15,9 +16,9 @@
         
         <p>Formulario para añadir nuevos enemigos</p>
         
-        <form method="post" action="#" id="usrform">
-                <p>Nombre:<input type="text" name="nombre" required/></p>
-                <p>Zona:<input type="text" name="zona" required/></p>
+        <form method="post" action="#" id="usrform" title="Formulario">
+                <p>Nombre:<input type="text" name="nombre" title="Nombre" required/></p>
+                <p>Zona:<input type="text" name="zona" title="Zona" required/></p>
                 <input type="submit" value="Insertar Datos" />
         </form>
         <?php

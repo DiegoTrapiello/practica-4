@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     
     <meta name="author" content="Diego Trapiello Mendoza" /> 
-    
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <!-- enlace a la hoja de estilos -->
     <link href="Ejercicio7.css" rel="stylesheet" >
 </head>
@@ -19,8 +19,8 @@
         
         <p>Menú dropdown que permite seleccionar un enemigo y ver los objetos que se pueden obtener de dicho enemigo</p>
         
-        <form method="post" action="">
-                <select name="buscarobjeto">
+        <form method="post" action="" title="Formulario">
+                <select name="buscarobjeto" title="Buscar Objeto">
                 <option disabled selected> --Seleccionar Enemigo -- </option>
                 <?php
                   include_once 'BaseDatos.php';

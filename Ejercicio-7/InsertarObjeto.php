@@ -4,6 +4,7 @@
 <title>Ejercicio 7</title>
     <meta charset="utf-8"/>
     <meta name="author" content="Diego Trapiello Mendoza" /> 
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <link href="Ejercicio7.css" rel="stylesheet"/>
 </head>
 
@@ -15,9 +16,9 @@
         
         <p>Formulario para añadir nuevos objetos</p>
         
-        <form method="post" action="#" id="usrform">
-                <p>Nombre:<input type="text" name="nombre" required/></p>
-                <p>Tipo de objeto: <select name="tipoobjeto">
+        <form method="post" action="#" id="usrform" title="Formulario" >
+                <p>Nombre:<input type="text" name="nombre" title="Nombre" required/></p>
+                <p>Tipo de objeto: <select name="tipoobjeto" title="Tipo de Objeto">
                 <option disabled selected> -- Seleccionar Tipo -- </option>
                 <?php
                   include_once 'BaseDatos.php';

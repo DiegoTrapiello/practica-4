@@ -4,6 +4,7 @@
     <title>Ejercicio 7</title>
     <meta charset="utf-8"/>
     <meta name="author" content="Diego Trapiello Mendoza" /> 
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     
     <!-- enlace a la hoja de estilos -->
     <link href="Ejercicio7.css" rel="stylesheet" />
