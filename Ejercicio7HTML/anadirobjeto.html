@@ -12,13 +12,16 @@
     <h1>Aplicacion Objetos RPG</h1>
 
     <section>
-        <h2>Añadir nuevo enemigo a la base de datos</h2>  
+        <h2>Añadir nuevo objeto a la base de datos</h2>  
         
-        <p>Formulario para añadir nuevos enemigos</p>
+        <p>Formulario para añadir nuevos objetos</p>
         
-        <form method="post" action="#" id="usrform" title="Formulario">
+        <form method="post" action="#" id="usrform" title="Formulario" >
                 <p>Nombre:<input type="text" name="nombre" title="Nombre" required/></p>
-                <p>Zona:<input type="text" name="zona" title="Zona" required/></p>
+                <p>Tipo de objeto: <select name="tipoobjeto" title="Tipo de Objeto">
+                <option disabled selected> -- Seleccionar Tipo -- </option>
+                <option value='Lanza'>Lanza</option><option value='Hacha'>Hacha</option><option value='Ultraespadon'>Ultraespadon</option><option value='Espada recta'>Espada recta</option><option value='Material'>Material</option><option value='Espada de estocada'>Espada de estocada</option><option value='Catalizador'>Catalizador</option><option value='Alabarda'>Alabarda</option>                </select>
+                </p>
                 <input type="submit" value="Insertar Datos" />
         </form>
             </section>
