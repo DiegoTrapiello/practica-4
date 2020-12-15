@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>CalculadoraRPN</title>
+    <link rel="stylesheet" href="CalculadoraRPN.css" />
+</head>
+
+
+
+<body>
+<h1>Calculadora RPN</h1>
+<p>
+    <a>
+            <img style='border:0;width:88px;height:31px' src='https://jigsaw.w3.org/css-validator/images/vcss'
+                alt='¡CSS Válido!' />
+
+            <img style='border:0;width:88px;height:31px' src='https://jigsaw.w3.org/css-validator/images/vcss-blue'
+                alt='¡CSS Válido!' />
+        </a>
+</p>
+
+<main>
+    <form action="#" method='post' name='botones'>
+    <div id="contenido"></div>
+    <input type='text' id='expresion' title='Pantalla de la calculadora' disabled value=""/>
+    <div class="grid-botones">
+        <!--- Primera fila de botones-->
+        <input type ="submit" class='button' value ="sen" name='botonsen' />
+        <input type ="submit" class='button' value ="cos" name='botoncos' />
+        <input type ="submit" class='button' value ="tan" name='botontan' />
+        <input type ="submit" class='button' value ="log" name='botonlog' />
+
+
+        <!--- Segunda fila de botones-->
+        <input type ="submit" class='button' value ="arcsen" name='botonarcsen' />
+        <input type ="submit" class='button' value ="arccos" name='botonarccos' />
+        <input type ="submit" class='button' value ="arctan" name='botonarctan' />
+        <input type ="submit" class='button' value ="exp" name='botonexponencial' />
+
+        <!--- Tercera fila de botones-->
+         <input type = 'submit' class='button' name='botonmas' value='+' />
+         <input type = 'submit' class='button' name='boton7' value='7'/>
+         <input type = 'submit' class='button' name='boton8' value='8' />
+         <input type = 'submit' class='button' name='boton9' value='9' />
+
+
+        <!--- Cuarta fila de botones-->
+         <input type = 'submit' class='button' name='botonmenos' value='-' />
+         <input type = 'submit' class='button' name='boton4' value='4' />
+         <input type = 'submit' class='button' name='boton5' value='5' />
+         <input type = 'submit' class='button' name='boton6' value='6'/>
+
+
+        <!--- Quinta fila de botones-->
+        <input type = 'submit' class='button' name='botonmultiplicar' value='*' />
+        <input type = 'submit' class='button' name='boton1' value='1' />
+        <input type = 'submit' class='button' name='boton2' value='2'/>
+        <input type = 'submit' class='button' name='boton3' value='3' />
+
+        <!--- Sexta fila de botones-->
+        <input type = 'submit' class='button' name='botondividir' value='/' />
+        <input type = 'submit' class='button' name='botonpunto' value='.' />
+        <input type = 'submit' class='button' name='boton0' value='0' />
+        <input type = 'submit' class='button' name='botonenter' value='Enter' />
+
+
+        <div class='limpiar-ultimo'><input type ="submit" class='button' value ="Limpiar ultimo"  name="botonlimpiarultimo" /></div>
+        <div class="limpiar-memoria"><input type ="submit" class="button" value ="Limpiar memoria"   name="botonlimpiarmemoria"/></div>
+    </div>
+    </form>
+</main>
+</body>
+</html>
