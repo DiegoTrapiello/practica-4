@@ -16,6 +16,11 @@ ul li {
     list-style: square;
 }
 
+
+li {
+    margin: 1em;
+}
+
 a:link {
     color: #403E39;
 }
